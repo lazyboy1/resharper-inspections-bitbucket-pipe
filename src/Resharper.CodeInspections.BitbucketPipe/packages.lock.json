@@ -4,12 +4,12 @@
     ".NETCoreApp,Version=v3.1": {
       "IdentityModel": {
         "type": "Direct",
-        "requested": "[4.6.0, )",
-        "resolved": "4.6.0",
-        "contentHash": "p0vnXWU3e7lFXY6MAUtEBPcXB29LArU+BcqEEVu7LdPW6yD07/uURtnl8q6oT1crC8fjTTRSPbRzFuOGAz/i3w==",
+        "requested": "[5.1.0, )",
+        "resolved": "5.1.0",
+        "contentHash": "Gcv4YYXncvUvTNLF8lDJyItZzaEDFcEi3geMDtylGcl/Rx90vcV7Kv3yAofktJBW7GvmIjQgC8LtUq0s9XQT2w==",
         "dependencies": {
-          "Newtonsoft.Json": "11.0.2",
-          "System.Text.Encodings.Web": "5.0.0"
+          "System.Text.Encodings.Web": "5.0.1",
+          "System.Text.Json": "5.0.1"
         }
       },
       "JetBrains.Annotations": {
@@ -190,11 +190,6 @@
         "type": "Transitive",
         "resolved": "1.1.0",
         "contentHash": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg=="
-      },
-      "Newtonsoft.Json": {
-        "type": "Transitive",
-        "resolved": "11.0.2",
-        "contentHash": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ=="
       },
       "runtime.native.System": {
         "type": "Transitive",
@@ -383,13 +378,13 @@
       },
       "System.Text.Encodings.Web": {
         "type": "Transitive",
-        "resolved": "5.0.0",
-        "contentHash": "EEslUvHKll1ftizbn20mX3Ix/l4Ygk/bdJ2LY6/X6FlGaP0RIhKMo9nS6JIGnKKT6KBP2PGj6JC3B9/ZF6ErqQ=="
+        "resolved": "5.0.1",
+        "contentHash": "KmJ+CJXizDofbq6mpqDoRRLcxgOd2z9X3XoFNULSbvbqVRZkFX3istvr+MUjL6Zw1RT+RNdoI4GYidIINtgvqQ=="
       },
       "System.Text.Json": {
         "type": "Transitive",
-        "resolved": "4.7.0",
-        "contentHash": "IPq/x/d5nAcnD3vIyM3AbPOaTgcqrh0AqPSx7U53UFu3M6k1TH1u/eXc9/h4jm/3mpP1WRUpevlPY4PACd7AWw=="
+        "resolved": "5.0.1",
+        "contentHash": "/UM3UK1dXKl8Ybysg/21gM4S8DJgkR+yLU8JwqCVbuNqQNImelntgYFAN5QxR8sJJ1kMx//hOUdf0lltosi8cQ=="
       },
       "System.Threading": {
         "type": "Transitive",
