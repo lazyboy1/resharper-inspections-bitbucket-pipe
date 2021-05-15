@@ -15,7 +15,7 @@ COPY src/$ProjectName/. ./
 RUN dotnet publish -c release -o /app
 
 
-FROM mcr.microsoft.com/dotnet/runtime:3.1 as runtime
+FROM mcr.microsoft.com/dotnet/runtime:6.0 as runtime
 
 WORKDIR /app
 
